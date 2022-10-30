@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacos el Jefe, desded 2022®</title>
+</head>
+<body>
+    <h1>Tacos el Jefe</h1>
+    <img src="./img/Tacos el Jefe.png" alt="Tacos el Jefe" height="25%" width="25%">
+
+    <section>
+        <h2>Menu</h2>
+        <h3>Tacotes</h3>
+        <p>Con cilantro y cebolla</p>
+        <ul>
+            <li>Pastor ........................ $30</li>
+            <li>Longaniza ................. $30</li>
+            <li>Costilla ...................... $30</li>
+            <li>Suadero ..................... $30</li>
+            <li>Campechano ............. $30</li>
+        </ul>
+
+        <h3>Taquitos</h3>
+        <p>Con cilantro y cebolla</p>
+        <ul>
+            <li>Pastor ........................ $15</li>
+            <li>Longaniza ................. $15</li>
+            <li>Costilla ...................... $15</li>
+            <li>Suadero ..................... $15</li>
+            <li>Campechano ............. $15</li>
+        </ul>
+
+        <h3>Platillos</h3>
+        <dl>
+            <dt>Gran Danés ............. $60</dt>
+            <dd>Tortilla de Harina, Pastor, Longaniza,Costilla, Suadero, Aguacate, Cebolla, Cilantro, Queso, Pimiento morrón, Piña, Salchicha, Jamón y Tocino</dd>
+            <dt>Pastor Alemán ........ $60</dt>
+            <dd>Tortilla de Harina, Pastor, Longaniza,Cebolla, Queso, Jamón y Tocino</dd>
+            <dt>Husky ..................... $60</dt>
+            <dd>Tortilla de maíz, Longaniza,Costilla, Suadero, Queso, Jamón y Tocino</dd>
+            <dt>Corriente................. $60</dt>
+            <dd>Tortilla de maízPastor, Cebolla, Cilantro, Queso, Piña,Jamón, Salchicha y Tocino</dd>
+        </dl>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Ubicación</h2>
+        <h3>Sucursales</h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Dirección</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Norte</td>
+                <td><a href="https://goo.gl/maps/7nzuaCbwkM6QWnus5">Av Vicente Guerrero 205, Lomas de la Selva Cuernavaca, Mor.</a></td>
+                <td>L-D 24H.</td>
+            </tr>
+            <tr>
+                <td>Centro</td>
+                <td><a href="https://goo.gl/maps/PySFM2k2cgqsWa3X9">Jdn. Juárez BARDA, Cuernavaca Centro, Mor.</a></td>
+                <td>L-D 05:00 p.m. - 03:00 a.m.</td>
+            </tr>
+            <tr>
+                <td>Sur</td>
+                <td><a href="https://g.page/soriana-super-morelos-sur?share">José María Morelos 153, Quintana Roo, Cuernavaca, Mor.</a></td>
+                <td>M-D 05:00 p.m. - 03:00 a.m.</td>
+            </tr>
+        </table>        
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Pedidos</h2>
+        <form action="">
+            <p>Selecciona tu sucursal.</p>
+            <select name="sourceSelection" id="sourceSelection">
+                <option value="Norte">Norte</option>
+                <option value="Centro">Centro</option>
+                <option value="Sur">Sur</option>
+            </select>
+
+            <p>Selecciona tus tacos/platillo.</p>
+            <input type="checkbox" id="Pastor" name="Pastor" value="Pastor">
+            <label for="Pastor">Tacos de Pastor</label>
+            <input type="number" id="PastorQuantity" name="PastorQuantity" placeholder="¿Cuantos?">            
+            <br>
+            <input type="checkbox" id="Longaniza" name="Longaniza" value="Longaniza">
+            <label for="Longaniza">Tacos de Longanza</label>
+            <input type="number" id="LonganizaQuantity" name="LonganizaQuantity" placeholder="¿Cuantos?"> 
+            <br>
+            <input type="checkbox" id="Costilla" name="Costilla" value="Costilla">
+            <label for="Costilla">Tacos de Costilla</label>
+            <input type="number" id="CostillaQuantity" name="CostillaQuantity" placeholder="¿Cuantos?">           
+            <br>
+            <input type="checkbox" id="Suadero" name="Suadero" value="Suadero">
+            <label for="Suadero">Tacos de Suadero</label>
+            <input type="number" id="SuaderoQuantity" name="SuaderoQuantity" placeholder="¿Cuantos?">           
+            <br>
+            <input type="checkbox" id="GranDanes" name="GranDanes" value="GranDanes">
+            <label for="GranDanes">Gran Danés</label>
+            <input type="number" id="GranDanesQuantity" name="GranDanesQuantity" placeholder="¿Cuantos?">
+            <br>
+            <input type="checkbox" id="PastorAleman" name="PastorAleman" value="PastorAleman">
+            <label for="PastorAleman">Pastor Alemán</label>
+            <input type="number" id="PastorAlemanQuantity" name="PastorAlemanQuantity" placeholder="¿Cuantos?">           
+            <br>
+            <input type="checkbox" id="Husky" name="Husky" value="Husky">
+            <label for="Husky">Husky</label>
+            <input type="number" id="HuskyQuantity" name="HuskyQuantity" placeholder="¿Cuantos?">
+            <br>
+            <input type="checkbox" id="Corriente" name="Corriente" value="Corriente">
+            <label for="Corriente">Corriente de Costilla</label>
+            <input type="number" id="CorrienteQuantity" name="CorrienteQuantity" placeholder="¿Cuantos?">
+            
+            <br><br>
+
+            <label for="Nombre">Nombre</label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="¿Cómo te llamas?">
+
+            <br><br>
+
+            <label for="Direccion">Dirección</label><br>
+            <input type="text" id="Direccion" name="Direccion" placeholder="¿Cúal es tu dirección?">
+
+            <br><br>
+
+            <label for="Telefono">Teléfono</label><br>
+            <input type="text" id="Telefono" name="Telefono" placeholder="¿Cúal es tu Teléfono?">
+
+            <button type="submit">Enviar pedido.</button>
+            
+
+        </form>
+
+    </section>
+
+    <hr>
+
+
+    
+</body>
+</html>
